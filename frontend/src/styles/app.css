@@ -1,0 +1,47 @@
+/* Main Page Styling */
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(135deg, #131816, #191813);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-container {
+    padding-top: 150px;
+    display: flex;
+    gap: 20px;
+}
+
+.main-button {
+    height: 20px;
+    width: 80px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    margin: 10px 30px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #344441, #0bc49f);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    align-content: center;
+}
+
+.main-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #344441, #099c7f);
+}
