@@ -1,0 +1,3 @@
+web3-ethereum-defi[data]
+web3
+ccxt
